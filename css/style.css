@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+  height: 110px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 16px;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #3366cc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-btn {
+  margin-left: 80px;
+}
+
+/* Hero */
+
+.hero-container {
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.section-hero-heading {
+  margin-bottom: 20px;
+}
+
+.section-hero-descr {
+  margin-bottom: 30px;
+}
+
+.section-hero-btn-descr {
+  margin-top: 10px;
+}
+
+/* What we do */
+
+.section-do {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.section-descr {
+  margin-top: 25px;
+}
+
+.section-do-list {
+  margin-top: 50px;
+  display: flex;
+}
+
+.section-do-item {
+  flex: 1 1 25%;
+  outline: 3px solid red;
+}
+
+.section-do-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* Clients */
+
+.section-clients {
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.section-clients-list {
+  margin-top: 40px;
+  display: flex;
+}
+
+.section-clients-item {
+  flex: 1 1 33.33%;
+  outline: 3px solid red;
+}
+.section-clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-clients-testimonial {
+  margin: 50px 50px 30px 30px;
+}
+
+.section-clients-user {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin: 30px 0 30px 40px;
+}
+
+.section-clients-user-info {
+  margin-top: 10px;
+  margin-left: 15px;
+}
